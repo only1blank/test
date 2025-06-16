@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Ambidexter';
+	src: url('../fonts/ambidexter.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/ambidexter.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/ambidexter.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/ambidexter.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/ambidexter.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/ambidexter.svg#ambidexter') format('svg'); /* Chrome < 4, Legacy iOS */
+}

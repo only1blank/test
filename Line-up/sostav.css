@@ -1,0 +1,202 @@
+body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+header {
+  background-color: #484647;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  max-width: 100%;
+}
+main {
+  padding: 20px;
+}
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+
+.sos {
+  width: auto;
+  height: 134px;
+  background: #000000;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: Archivo;
+  font-style: italic;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 67px;
+  word-wrap: break-word;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.defend {
+  text-align: left;
+  color: #484647;
+  font-size: 35px;
+  font-family: Archivo;
+  font-style: italic;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 67px;
+  word-wrap: break-word;
+  margin-left: 15px;
+}
+.cards__wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 50px;
+  width: 1500px;
+}
+
+.cards__wrapper p {
+  font-family: Archivo;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+* {
+  box-sizing: border-box;
+}
+
+div {
+ unicode-bidi: isolate;
+}
+.page-body {
+  min-width: 320px;
+  margin: 0 auto;
+  font-family: "PF Centro Sans Pro", Arial, sans-serif;
+  font-weight: 400;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+
+.card-player__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin-left: 50px;
+}
+
+.cards__wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.atack {
+  height: fit-content;
+  display: flex;
+  text-align: left;
+  color: #484647;
+  font-size: 35px;
+  font-family: Archivo;
+  font-style: italic;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 67px;
+  word-wrap: break-word;
+  margin-left: 15px;
+}
+
+.blockatt {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 50px;
+  text-align: center;
+  font-family: Archivo;
+  font-weight: bold;
+  font-size: 18px;
+  width: 1500px; 	
+}
+
+.blockatt::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.blockgk {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 0.5fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  font-family: Archivo;
+  font-weight: bold;
+  font-size: 20px;
+  width: 1300px;
+}
+
+.goalkeeper {
+  text-align: left;
+  color: #484647;
+  font-size: 35px;
+  font-family: Archivo;
+  font-style: italic;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 67px;
+  word-wrap: break-word;
+  margin-left: 15px;
+}
+.card-player__name {
+  text-align: center;
+}
+
+.allfoot {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+.footer {
+  background-color: #484647;
+  max-height: 150px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  text-decoration: none;
+  list-style: none;
+}

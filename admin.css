@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container  {
+    max-width: 1270px;
+    margin: 0 auto;
+    padding: 25px;
+    font-family: Montserrat;
+}
+.adminpanel {
+    padding: 25px;
+    text-align: center;
+    border: 1px solid red;
+}
+
+.container button{
+    border-radius: 10px;
+    transition: 1s ease-in-out;
+    padding: 15px;
+    background: #d32f2f;
+} 
+.redactor {
+    padding: 25px;
+    text-align: center;
+    border: 1px solid red;
+  
+}
+.delete{
+    padding: 25px;
+    text-align: center;
+    border: 1px solid red;
+}
+.add{
+    padding: 25px;
+    text-align: center;
+    border: 1px solid red;
+}
+.allfoot {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+body{
+  background-color: #f1f2f3;
+}
+.footer {
+  background-color: #ffffff;
+  max-height: 250px;
+  width: 100%;
+  border-top: 1px solid red;
+  
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  text-decoration: none;
+  list-style: none;
+}
